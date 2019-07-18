@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+public class DrawHalfArrow {
+    public static void main(String[] args) {
+        int arrowBaseHeight = 0;
+        int arrowBaseWidth = 0;
+        int arrowHeadWidth = 0;
+        Scanner scnr = new Scanner(System.in);
+
+        /* you must create a program that creates a custom half arrow based on what the user inputs.
+            For example, an entry of arrowBaseHeight = 3, arrowBaseWidth = 4, arrowHeadWidth would
+            output:
+
+            ****
+            ****
+            ****
+            *****
+            ****
+            ***
+            **
+            *
+
+            MIND:
+            1. The program must only accept positive integers. The program must continue to ask for 
+            user inputs until an appropriate input is made.
+            2. The arrowHeadWidth must be greater than arrowBaseWidth. FOR EXAMPLE, if a user were to
+            input a arrowBaseWidth of 7, the program would only accept a minimum int of 8 for the
+            arrowHeadWidth. If the user inputs 7 or less, the program must ask again.
+
+            EXAMPLES:
+            Program: Enter arrow base height:
+            User: -4
+            Program: Enter arrow base height:
+            User: 4
+            Program: Enter arrow base width:
+            User: 3
+            Program: Enter arrow head width:
+            User: -5
+            Program: Enter arrow head width:
+            User: 3
+            Program: Enter arrow head width:
+            User: 6
+            Program: ***
+                     ***
+                     ***
+                     ***
+                     ******
+                     *****
+                     ****
+                     ***
+                     **
+                     *
+        */
+    }
+}
